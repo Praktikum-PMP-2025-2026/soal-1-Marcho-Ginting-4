@@ -29,7 +29,7 @@
         printf("MASUK\n");
     } else if (izin == 2 && radiasi <= 2 && (jam > 8 && jam < 18)) {
         printf("MASUK\n");
-    } else if (izin == 2 && (jam < 8 || jam > 18)) {
+    } else if (izin == 2 && radiasi > 3 && (jam <= 8 || jam >= 18)) {
         printf("PEMERIKSAAN\n");
     } else if (izin == 3 && radiasi == 0 && suhu < 380) {
         printf("MASUK\n");
